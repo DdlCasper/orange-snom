@@ -5,3 +5,8 @@ from orangecontrib.snom.widgets.preprocessors import phase_rotation  # noqa: F40
 from orangecontrib.snom.widgets.preprocessors import simple_normalize  # noqa: F401
 from orangecontrib.snom.widgets.preprocessors import linelevel  # noqa: F401
 from orangecontrib.snom.widgets.preprocessors import self_reference  # noqa: F401
+from orangecontrib.snom.widgets.preprocessors import spatial_filter  # noqa: F401
+from orangecontrib.snom.widgets.preprocessors import binarization  # noqa: F401
+from orangecontrib.snom.widgets.preprocessors import gradient_watershed  # noqa: F401
+from orangecontrib.snom.widgets.preprocessors import labelling  # noqa: F401
+from orangecontrib.snom.widgets.preprocessors import morphology_editor  # noqa: F401
