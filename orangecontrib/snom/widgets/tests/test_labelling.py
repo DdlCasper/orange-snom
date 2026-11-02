@@ -2,7 +2,7 @@ import unittest
 import numpy as np
 from AnyQt.QtWidgets import QApplication
 
-from orangecontrib.snom.labelling import InstanceLabelingProcessor, InstanceLabelingEditor
+from  orangecontrib.snom.widgets.preprocessors.labelling import InstanceLabelingProcessor, InstanceLabelingEditor
 
 app = QApplication.instance() or QApplication([])
 

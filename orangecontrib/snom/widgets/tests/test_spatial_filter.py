@@ -2,7 +2,7 @@ import unittest
 import numpy as np
 from AnyQt.QtWidgets import QApplication
 
-fromorangecontrib.snom.widgets.preprocessors.spatial_filter import SpatialFilterProcessor, SpatialFilterEditor
+from orangecontrib.snom.widgets.preprocessors.spatial_filter import SpatialFilterProcessor, SpatialFilterEditor
 
 app = QApplication.instance() or QApplication([])
 

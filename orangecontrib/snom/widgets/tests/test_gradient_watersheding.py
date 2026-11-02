@@ -2,7 +2,7 @@ import unittest
 import numpy as np
 from AnyQt.QtWidgets import QApplication
 
-from orangecontrib.snom.gradient_watershed import SpectralWatershedProcessor, SpectralWatershedEditor
+from  orangecontrib.snom.widgets.preprocessors.gradient_watershed import SpectralWatershedProcessor, SpectralWatershedEditor
 
 app = QApplication.instance() or QApplication([])
 

@@ -2,7 +2,7 @@ import unittest
 import numpy as np
 from AnyQt.QtWidgets import QApplication
 
-from orangecontrib.snom.morphology_editor import MorphologyProcessor, MorphologyEditor
+from  orangecontrib.snom.widgets.preprocessors.morphology_editor import MorphologyProcessor, MorphologyEditor
 
 app = QApplication.instance() or QApplication([])
 
